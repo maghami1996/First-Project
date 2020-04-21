@@ -1,0 +1,11 @@
+Git commands:
+
+Share kardane etelaat:
+git stash
+git pull 
+git stash pop
+
+$ git add -A    //etelaato mibare to stage baraye file haye amade push shodan baraye commit kardan
+git status  // neshun dadan k too stage mire ya na
+git commit -m ""  // dalile taghire code va push kardan
+git push -u origin master   //ferestadan taghirat roo sv 
