@@ -1,6 +1,7 @@
 Git commands:
 
-Share kardane etelaat:
+Share kardane etelaat: 
+(darzamane conflict khordan mitunesim etelaat ra dar y stack negah darim)
 git stash
 git pull 
 git stash pop
