@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: blue;
+}
+
+#a p:not(:nth-child(2)) {
+	color: pink;
+}
+
+#b p:not(.not) {
+	color: pink;
+}
+
+</style>
+</head>
+<body>
+
+<div id="a">
+<p>I am a person.</p>
+<p>I am a person.</p>
+<p>I am a person.</p>
+<p>I am a person.</p>
+<p>I am a person.</p>
+<p>I am a person.</p>
+</div>
+ NEXT EXAMPLE
+ <br>
+<div id="b">
+<p>I am a person.</p>
+<p>I am a person.</p>
+<p class="not">I am a person.</p>
+<p>I am a person.</p>
+<p>I am a person.</p>
+<p>I am a person.</p>
+</div>
+
+</body>
+</html>
