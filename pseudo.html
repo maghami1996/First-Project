@@ -16,7 +16,7 @@
         border-radius: 5px;
         position: relative;
       }
-/* قبل از بلاک پی یک "کانتنت" که شکل مربع است چرخیده و شبیه به فلش قبل از بلاک قرار گرفته*/
+      /* قبل از بلاک پی یک "کانتنت" که شکل مربع است چرخیده و شبیه به فلش قبل از بلاک قرار گرفته*/
       p:before {
         content: ' ';
         width: 15px;
@@ -27,12 +27,17 @@
         left: -5px;
         top: 17px;
       }
-/*متن را درون قرار "دیو" دادیم و به آن طول و عرض ندادیم پس طول و عرض راا از "پی" گرفت*/
+      /*متن را درون قرار "دیو" دادیم و به آن طول و عرض ندادیم پس طول و عرض راا از "پی" گرفت*/
       div {
         width: 500px;
         border: 1px solid red;
         height: auto;
         margin: 100px auto;
+      }
+
+      span {
+        border: 1px solid green;
+        margin: 10px;
       }
     </style>
   </head>
@@ -42,5 +47,13 @@
         This is a tooltip sample
       </p>
     </div>
+
+    <h1>Salam</h1>
+    <section>
+      <span>span1</span>
+      <span>span2</span>
+      <span>span3</span>
+      <span>span4</span>
+    </section>
   </body>
 </html>
