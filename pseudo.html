@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      /*inline block یک بلاک کامل را اشغال نمیکند تحت تاثیر"طول" و "عرض" بلاک قرار میگیرد
+      اما در inline طول و عرض پشتیبانی نمیشود*/
       p {
-        display: inline;
+        display: inline-block;
         background: gray;
         color: #fff;
         padding: 15px;
@@ -14,7 +16,7 @@
         border-radius: 5px;
         position: relative;
       }
-
+/* قبل از بلاک پی یک "کانتنت" که شکل مربع است چرخیده و شبیه به فلش قبل از بلاک قرار گرفته*/
       p:before {
         content: ' ';
         width: 15px;
@@ -25,7 +27,7 @@
         left: -5px;
         top: 17px;
       }
-
+/*متن را درون قرار "دیو" دادیم و به آن طول و عرض ندادیم پس طول و عرض راا از "پی" گرفت*/
       div {
         width: 500px;
         border: 1px solid red;
