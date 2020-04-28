@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        display: inline-block;
+        background: gray;
+        color: #fff;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 5px;
+        position: relative;
+      }
+
+      p:before {
+        content: ' ';
+        width: 15px;
+        height: 15px;
+        transform: rotate(45deg);
+        background: gray;
+        position: absolute;
+        left: -5px;
+        top: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      This is a tooltip sample
+    </p>
+  </body>
+</html>
