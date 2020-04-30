@@ -3,4 +3,13 @@ body {
   }
  
   /*اولویت رنگ با "ایمپورتنت" است*/
-  h1{color:green !important;}
+  h1{color:green !important;
+    /*ترتیب top right bottom left*/
+  padding: 25px 50px 75px 100px;}
+/*در اینجا پدینگ لفت برابر با پدینگ رایت است
+  padding: 25px 50px 75px ;}*/
+
+  /*در اینجاهمه ی پدینگ ها با هم برابر هستند
+  padding: 25px ;}
+  دد مارجین هم این خصوصیات را داریم*/
+
