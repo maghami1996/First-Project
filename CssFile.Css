@@ -1,7 +1,4 @@
-body {
-    background-color: lightblue;
-  }
- 
+
   /*اولویت رنگ با "ایمپورتنت" است*/
   h1{color:green !important;
     /*ترتیب top right bottom left*/
@@ -14,9 +11,10 @@ body {
   در مارجین هم این خصوصیات را داریم*/
 
   div {
-color:rgb(195, 204, 75);
-height:200px;
-width:100%;
-max-width: 700px;
+    background:rgb(195, 204, 75);
+    height:200px;
+    width:100%;
+    max-width: 900px;
+    min-width: 600px;
   }
 
