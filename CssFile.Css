@@ -2,4 +2,5 @@ body {
     background-color: lightblue;
   }
  
-  h1{color:green}
+  /*اولویت رنگ با "ایمپورتنت" است*/
+  h1{color:green !important;}
