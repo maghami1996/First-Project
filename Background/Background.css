@@ -1,5 +1,8 @@
 body{
-    background-image:url('./photo_2019-01-27_15-43-45.jpg');
+    /*آدرس دهی relative*/
+    background-image:url('./Image/photo_2019-01-27_15-43-45.jpg');
+    /*آدرس دهی درستیه ولی خوب نیست absolute
+    C:/Users/Mahbano/Desktop/Programming class/Background/Image*/
     height:100vh;
     background-repeat: repeat;
    /* background-repeat: repeat-y;
