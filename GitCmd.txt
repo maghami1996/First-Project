@@ -10,3 +10,4 @@ $ git add -A    //etelaato mibare to stage baraye file haye amade push shodan ba
 git status  // neshun dadan k too stage mire ya na
 git commit -m ""  // dalile taghire code va push kardan
 git push -u origin master   //ferestadan taghirat roo sv 
+$ git reset --hard HEAD  //reset kardane code b halate ghabli
