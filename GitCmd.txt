@@ -11,3 +11,8 @@ git status  // neshun dadan k too stage mire ya na
 git commit -m ""  // dalile taghire code va push kardan
 git push -u origin master   //ferestadan taghirat roo sv 
 $ git reset --hard HEAD  //reset kardane code b halate ghabli
+
+2- https://pngtree.com/free-patterns-background  // axhaye png baraye url
+1- https://www.toptal.com/designers/subtlepatterns/  // axhaye png baraye url  
+
+https://codepen.io/    //code haye css
