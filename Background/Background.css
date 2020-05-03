@@ -4,8 +4,10 @@ body{
     /*اگر عکس در پوشه ی "بردر"باشد
     './../border/photo_2019-01-27_15-43-45.jpg'
     ".." به معنای برگشتن به پوشه قبلی است*/
+
     /*آدرس دهی درستیه ولی خوب نیست absolute
     C:/Users/Mahbano/Desktop/Programming class/Background/Image*/
+    
 
     height:100vh;
     background-repeat: repeat;
