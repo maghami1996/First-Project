@@ -35,6 +35,15 @@ a:hover{text-decoration: underline;}
   background-size:35% ;
 }
 
+#Srch{
+  border: 1px solid rgba(194, 191, 191, 0.945);
+  border-radius: 25px;
+  height:40px;
+  width: 38%;
+ text-align: center;
+ margin: auto;
+}
+
 #pic{
   display:block;
   margin:auto;
@@ -54,15 +63,25 @@ bottom: 0;
 
 #gsearch{
   display:block;
- background-image: url("./../../Background/Image/search-icon-transparent-images-vector-16.png"),url("./../../Background/Image/Google_mic.png");
- background-position:left,right;
- background-repeat: no-repeat,no-repeat;
- background-size:15px 20px;
+ background-image: url("./../../Background/Image/search-icon-transparent-images-vector-16.png");
+ background-position:left;
+ background-repeat: no-repeat;
+ background-size:15px;
  padding: 10px;
-  border: 1px solid rgba(194, 191, 191, 0.945);
-  border-radius: 25px;
+ border: 0px;
   height:40px;
   width: 38%;
+  margin: 10px auto ;
+}
+
+#mic{
+  display: inline-block;
+  background-image: url("./../../Background/Image/Google_mic.png");
+  border: 0px;
+  background-size: 20px;
+  background-position: right;
+  background-repeat: no-repeat;
+ background-size:15px;
   margin: 10px auto ;
 }
 
