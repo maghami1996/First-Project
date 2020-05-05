@@ -30,9 +30,14 @@ a:hover{text-decoration: underline;}
 #middle {
   height:100vh;
   width: 100%;
-  background: url("./../../Background/Image/Google1.jpeg") no-repeat 50% 10vh;
   background-size:35% ;
   float:center;
+}
+
+#pic{
+  height:300px;
+  width:500px ;
+  background: url("./../../Background/Image/Google1.jpeg") no-repeat 50% 10vh;
 }
 
 #bottom{
@@ -43,16 +48,17 @@ a:hover{text-decoration: underline;}
 }
 
 #gsearch{
+  display:block;
  background:white url("./../../Background/Image/search-icon-transparent-images-vector-16.jpeg") left no-repeat;
  background:white url("./../../Background/Image/Google_mic.png") right no-repeat;
- background-size:20px 20px;
+ background-size:15px 20px;
  padding: 10px;
   border: 1px solid gray;
   border-radius: 25px;
   height:5vh;
   width: 50%;
   float:center;
-  margin: 50px ;
+  margin:  auto ;
 }
 
 #gsearch:hover {box-shadow: 0 0 5px gray;}
