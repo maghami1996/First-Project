@@ -1,6 +1,7 @@
 body {
   height: 100%;
   width: 100%;
+  margin:0px;
 }
 
 a {
@@ -19,7 +20,6 @@ a:hover{text-decoration: underline;}
 
 .b {
   float: right;
-  padding-right: 15px;
 }
 
 #top{
@@ -28,16 +28,15 @@ a:hover{text-decoration: underline;}
 }
 
 #middle {
-  height:100vh;
+  text-align: center;
+  height:90vh;
   width: 100%;
   background-size:35% ;
-  float:center;
 }
 
 #pic{
-  height:300px;
-  width:500px ;
-  background: url("./../../Background/Image/Google1.jpeg") no-repeat 50% 10vh;
+  display:block;
+  margin:auto;
 }
 
 #bottom{
@@ -49,19 +48,19 @@ a:hover{text-decoration: underline;}
 
 #gsearch{
   display:block;
- background:white url("./../../Background/Image/search-icon-transparent-images-vector-16.jpeg") left no-repeat;
- background:white url("./../../Background/Image/Google_mic.png") right no-repeat;
+ background-image: url("./../../Background/Image/search-icon-transparent-images-vector-16.png"),url("./../../Background/Image/Google_mic.png");
+ background-position:left,right;
+ background-repeat: no-repeat,no-repeat;
  background-size:15px 20px;
  padding: 10px;
-  border: 1px solid gray;
+  border: 1px solid rgba(194, 191, 191, 0.945);
   border-radius: 25px;
-  height:5vh;
-  width: 50%;
-  float:center;
+  height:7vh;
+  width: 40%;
   margin:  auto ;
 }
 
-#gsearch:hover {box-shadow: 0 0 5px gray;}
+#gsearch:hover {box-shadow: 0px 0px 5px gray;}
 
 .btn{
   border:0px solid rgb(233, 231, 231);
@@ -79,13 +78,16 @@ a:hover{text-decoration: underline;}
 }
 
 #tips{
+  display:block;
   text-decoration: underline;
   color: rgb(8, 8, 187) !important;
+  margin:auto;
+  width: 100%;
 }
 
 p{
+  width:100%;
   font-family: Arial, Helvetica, sans-serif ;
   font-size: small;
   color: rgba(0, 0, 0, 0.863);
-  float: center;
 }
