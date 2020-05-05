@@ -62,7 +62,7 @@ bottom: 0;
 }
 
 #gsearch{
-  display:block;
+  display:inline-block;
  background-image: url("./../../Background/Image/search-icon-transparent-images-vector-16.png");
  background-position:left;
  background-repeat: no-repeat;
@@ -71,7 +71,6 @@ bottom: 0;
  border: 0px;
   height:40px;
   width: 38%;
-  margin: 10px auto ;
 }
 
 #mic{
@@ -83,6 +82,9 @@ bottom: 0;
   background-repeat: no-repeat;
  background-size:15px;
   margin: 10px auto ;
+  float:right;
+  height: 40px;
+  background-color: white;
 }
 
 #gsearch:hover {box-shadow: 0px 0px 5px gray;}
