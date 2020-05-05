@@ -1,0 +1,83 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  font-size: small;
+  font-family: Arial, sans-serif;
+  color: rgb(109, 108, 108);
+  padding: 10px 10px;
+  text-decoration: none
+}
+
+a:hover{text-decoration: underline;}
+
+.a {
+  float: left;
+}
+
+.b {
+  float: right;
+  padding-right: 15px;
+}
+
+#top{
+  height:5vh;
+  width: 100%;
+}
+
+#middle {
+  height:90vh;
+  width: 50%;
+  background-image: url("./../../Background/Image/Google1.jpg") no-repeat 50% 10vh;
+  float:center;
+}
+
+#bottom{
+  height: 5vh;
+  width: 100%;
+  background:rgb(233, 231, 231) ;
+  float: bottom;
+}
+
+#gsearch{
+ background:white url("./../../Background/Image/search-icon-transparent-images-vector-16.jpg") left no-repeat;
+ background:white url("./../../Background/Image/Google_mic.jpg") right no-repeat;
+ padding: 10px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  height:5vh;
+  width: 50%;
+  float:center;
+  margin: 50px 50px;
+}
+
+#gsearch:hover {box-shadow: 0 0 5px gray;}
+
+.btn{
+  border:0px solid rgb(233, 231, 231);
+  color:gray;
+  margin: 25px 5px;
+  padding: 10px;
+}
+
+.btn:hover{
+  border: 1px solid rgba(194, 191, 191, 0.945);
+  border-radius: 5px;}
+
+#Farsi{
+ color:blue !important;
+}
+
+#tips{
+  text-decoration: underline;
+  color: rgb(8, 8, 187) !important;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: small;
+  color: rgba(0, 0, 0, 0.863);
+  float: center;
+}
