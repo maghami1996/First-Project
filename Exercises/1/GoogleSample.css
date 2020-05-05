@@ -55,9 +55,9 @@ a:hover{text-decoration: underline;}
  padding: 10px;
   border: 1px solid rgba(194, 191, 191, 0.945);
   border-radius: 25px;
-  height:7vh;
-  width: 40%;
-  margin:  auto ;
+  height:40px;
+  width: 38%;
+  margin: 10px auto ;
 }
 
 #gsearch:hover {box-shadow: 0px 0px 5px gray;}
@@ -82,7 +82,7 @@ a:hover{text-decoration: underline;}
   text-decoration: underline;
   color: rgb(8, 8, 187) !important;
   margin:auto;
-  width: 100%;
+  width: 80%;
 }
 
 p{
