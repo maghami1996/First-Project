@@ -71,7 +71,9 @@ bottom: 0;
  border: 0px;
   height:40px;
   width: 85%;
+  outline:none;
 }
+
 
 #mic{
   display: inline-block;
