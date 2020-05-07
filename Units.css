@@ -1,18 +1,20 @@
 body{
     height: 100%;
-    font-size: 50px;
 }
 
 p{
-    font-size:5rem; 
+    font-size:0.5rem; 
     padding:2rem ;
 }
 
+/*رم"همیشه به فنت سایز "اچ تی ام ال" توجه دارد حتی در اندازه "هایت" برای مثال در اینجا هایت برابر نصف پنجاه است"*/
+/*em ای ایم" هم خاصیت مشابه دارد"*/
 div{
     height: 0.5rem;
     background-color: thistle;
 }
 
 html{
+    font-size: 50px;
     height:100% ;
 }
