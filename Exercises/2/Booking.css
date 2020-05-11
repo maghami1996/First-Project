@@ -12,6 +12,8 @@ body{
 #middle{
     height: auto;
     width: auto;
+    /*"هایت" خود را برابر بچه اش یا همون محتواش میکنه برای زمانیکه از "فلوت" استفاده میکنیم*/
+    overflow: hidden;
 }
 
 #list{
@@ -104,6 +106,7 @@ padding-left: 100px;
       display: inline-block;
     }
 
+/*اگر عرض صفحه کمتر از چهارصد پیکسل شد*/
     @media only screen and (max-width: 400px) {
         #para{
             width: 360px;
