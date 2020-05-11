@@ -97,6 +97,12 @@ padding: 10px;
     font-size: 13px;
 padding-left: 100px;}
 
+@media only screen and (min-width: 400px) {
+    #para{
+        width: 360px;
+      }
+    }
+
     #para{
       height: 500px;
       width: 700px;
