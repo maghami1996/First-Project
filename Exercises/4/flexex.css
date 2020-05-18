@@ -1,0 +1,184 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#header{
+background-color: rgb(97, 97, 230);
+height:auto;
+text-align: center;
+color:rgb(10, 10, 68);
+margin: 0px;
+font-size: xx-large;
+font-family: cursive;
+padding: 1px;
+}
+
+#middle{
+    display:flex;
+    height:auto;
+}
+
+#footer{
+    background-color:orangered;
+    width: auto;
+height:auto;
+text-align: center;
+margin: 0px;
+font-size: xx-large;
+padding: 5px;
+color:black;
+font-size: small;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#leftdiv{
+    flex-direction:column;
+    flex-grow: 2;
+}
+
+#rightdiv{
+    flex-direction:column;
+    flex-grow: 3;
+}
+
+#srch{
+box-shadow: gray 0px 0px 5px 5px;
+border: 1px solid rgba(194, 191, 191, 0.945);
+border-radius: 25px;
+height:40px;
+width: 38%;
+margin: 10px 5px 10px 20px;
+text-indent: 20px;
+}
+
+#btn{
+    background-color:lightsalmon;
+    height: 50px;
+    width: 80px;
+    margin: 10px;
+    box-shadow: gray 0px 0px 5px 5px;
+border: 1px solid rgba(194, 191, 191, 0.945);
+border-radius: 25px;
+}
+
+#btmdiv{
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    width: auto;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+#hero{
+    height: 300px;
+    flex-basis: 500px;
+    background-image: url("./../../Background/Image/shopping.png");
+    background-position: center;
+  background-repeat: no-repeat;
+ background-size:300px;
+    flex-grow: 1;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#sidebar{
+    height:auto;
+    width: auto;
+    background-color: green;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+#list{
+    
+    height:auto ;
+    width: auto;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+li{
+    padding: 5px;
+    list-style-type: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+a{
+    color:black;
+}
+
+ul{
+    padding: 0px;
+}
+
+#maincontent{
+height: 300px;
+    width: auto;
+    background-color: orange;
+    flex-grow: 3;
+    margin: 2px;
+}
+
+#extracontent{
+    height:100px;
+    width: auto;
+    background-color: lightgray;
+    flex-grow: 1;
+    margin: 2px;
+text-align: center;
+padding: 20px;
+}
+
+#sale{
+    color: red;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#relatedimg{
+    height:500px;
+    width: auto;
+    background-color: black;
+    flex-grow: 2;
+    margin: 2px;
+    background-image: url("./../../Background/Image/Sale-PNG.png");
+    background-position: center;
+  background-repeat: no-repeat;
+ background-size:700px;
+}
+
+#relatedposts{
+    height:auto;
+    width: auto;
+    flex-grow: 3;
+    margin: 2px;
+    background-image: url("./../../Background/Image/bnr-itg-40.png");
+    background-position: center;
+  background-repeat: no-repeat;
+ background-size:700px;
+}
+
+@media only screen and (max-width:992px){
+    #btmdiv{
+        flex-direction: column;
+    }
+    #middle{
+        flex-direction: column;
+    }
+} 
+
+@media only screen and (max-width:768px){
+    #middle{
+        flex-direction: column;
+    }
+} 
