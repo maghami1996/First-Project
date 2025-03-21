@@ -1,6 +1,0 @@
-body {
-  background: lightpink url("./Image/Google1.jpeg") no-repeat 50% 10vh;
-  height: 100vh;
-  /*عکس به کدوم سمت مایل شد left right none*/
-  float: none;
-}
